@@ -1,0 +1,2 @@
+# Level_detection
+This laptop determines the electrolyte level from a photograph. The distance to the object with a liquid of 10 cm, against the background should not be other objects. First, the electrolyte cluster is recognized on the training set, then the linear regression model is trained using these data, and the conversion coefficient is plotted. At the end, the application of this model to photography with an arbitrary electrolyte level that is not related to the training sample is given.
